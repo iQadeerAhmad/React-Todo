@@ -10,7 +10,7 @@ function App() {
 
   }
 
-  const updateTog = (id, todo) => {
+  const updateTodo = (id, todo) => {
     setTodos((prev) => prev.map((prevTodo) => (prevTodo.id === id ? todo : prevTodo)))
   }
 
